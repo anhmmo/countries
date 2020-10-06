@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "cross-env NODE_ENV=production node server.js",
-    "dev": "cross-env nodemon server.js"
+    "dev": "cross-env nodemon server.js",
+    "test": "jest --watchAll"
   },
   "author": "nguyen au",
   "license": "MIT",
@@ -26,7 +27,10 @@
   },
   "devDependencies": {
     "cross-env": "^7.0.2",
+    "jest": "^26.4.2",
     "nodemon": "^1.19.2",
+    "supertest": "^5.0.0",
+    "colors": "^1.4.0",
     "node-mocks-http": "^1.9.0",
     "morgan": "^1.9.1"
   }
