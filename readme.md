@@ -1,4 +1,4 @@
-# COUNTRY API https://anhmmo.me
+# COUNTRY API https://anhmmo.me/api/v1/countries
 (NODEJS, EXPRESSJS, MONGODB, MONGOOSE)
 
 > REST Countries - RESTful API https://restcountries.eu CLONE with advanced custom results
